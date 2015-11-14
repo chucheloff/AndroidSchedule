@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="415"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#33b5e5"
+        android:id="@+id/text415"
+        android:alpha="1"
+        android:layout_below="@+id/text414"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="414"
+        android:textColor="#0099cc"
+        android:id="@+id/text414"
+        android:alpha="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваша группа:"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_above="@+id/text414"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
